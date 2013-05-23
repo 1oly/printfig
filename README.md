@@ -16,7 +16,7 @@ so it should be easy to migrate to any other system.
       x = 0:0.01:10;
       y = sin(x);
       plot(x,y);
-      figpath = [pwd '/figures'];
+      figpath = [pwd '/figures'];         % Provided /figures exist
       printfig([figpath '/myplot.tex'],'4cm','10cm',1);
       ```
 4. Have a look at the `extraAxisOptions` in printfig.m and [matlab2tikz](https://github.com/nschloe/matlab2tikz) to add your own favorite tikz axis options.
