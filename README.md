@@ -4,7 +4,7 @@ printfig
 I love [matlab2tikz](https://github.com/nschloe/matlab2tikz) and all its functionalities. printfig.m use [matlab2tikz](https://github.com/nschloe/matlab2tikz)
 to save any MATLAB figure as a .tex file (using the standalone document class) for easy tweaking or direct compilation with pdflatex.
 
-With this you quickly get great looking pdf figures compiled with pdflatex.
+With this you quickly get great looking pdf figures compiled with pdflatex directly within the MATLAB environment.
 
 DISCLAIMER: I'm running Mac 10.8.3 and MATLAB 2012b, I have no idea if printfig.m works on any other platform. However, the implementation is very simple (20 lines of code or so)
 so it should be easy to migrate to any other system.
